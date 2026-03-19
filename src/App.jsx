@@ -1,8 +1,14 @@
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
-      {/* Navigation */}
-      <nav className="flex items-center justify-between px-8 py-6">
+    <>
+      <div style={{textAlign:'center',padding:'10px 0',background:'linear-gradient(90deg,#1e3a5f,#2d5a87)',borderBottom:'1px solid rgba(255,255,255,0.1)'}}>
+        <a href="https://dailyai.tw/" target="_blank" rel="noopener noreferrer" style={{color:'#e0e0e0',textDecoration:'none',fontSize:'14px'}}>
+          歡迎訪問 <strong style={{color:'#60a5fa'}}>Daily AI Taiwan</strong> — 立足台灣，讀懂 AI
+        </a>
+      </div>
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
+        {/* Navigation */}
+        <nav className="flex items-center justify-between px-8 py-6">
         <div className="flex items-center gap-4">
           <a href="https://aipm.com.tw/" className="text-sm font-semibold text-white bg-purple-600 hover:bg-purple-700 px-3 py-1.5 rounded-lg transition-colors">← aipm.com.tw</a>
           <span className="text-2xl font-bold text-purple-700">Amy's 空間</span>
@@ -42,7 +48,8 @@ function App() {
       <footer className="text-center py-8 text-sm text-gray-400">
         &copy; 2026 Amy's 空間
       </footer>
-    </div>
+      </div>
+    </>
   )
 }
 
